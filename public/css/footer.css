@@ -1,0 +1,144 @@
+body {
+    font-family: 'open_regular',Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.71429;
+    color: #333;
+    background-color: #fff;
+    }
+
+    .footer_wrapper {
+    background-color: #04212e;
+    color: #ffffff;
+    padding: 30px 0;
+    }
+
+    .footer_container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    }
+
+    .footer_menu {
+        list-style: padding 0; /* Menghilangkan bullet point */
+        text-align: right; /* Mengeposisikan teks ke sebelah kanan */
+        margin-top: -40px; /* Menambahkan margin atas */
+
+    }
+    
+    .footer_menu li {
+        display: inline-block; /* Menampilkan elemen sebagai blok */
+        margin-left: 10px; /* Menambahkan margin antar elemen */
+    }
+    
+    .footer_menu a {
+        text-decoration: none; /* Menghilangkan garis bawah */
+        color: inherit; /* Pewarisan warna teks dari induknya */
+    }
+    
+    .footer_menu a:hover {
+        text-decoration: underline; /* Menambahkan garis bawah saat dihover */
+        color: #fff; /* Ganti dengan warna hover yang diinginkan */
+    }
+    
+    .footer_callcenter {
+        text-align: center;
+        margin-top: -110px; /* Menambahkan margin atas */
+    }
+    .footer_callcenter a {
+        text-decoration: none; /* Menghilangkan garis bawah */
+        color: inherit; /* Pewarisan warna teks dari induknya */
+    }
+    .footer_callcenter a:hover {
+        text-decoration: underline; /* Menambahkan garis bawah saat dihover */
+        color: #fff; /* Ganti dengan warna hover yang diinginkan */
+    }
+
+    /* CSS untuk alamat di dalam footer */
+    .footer_addr {
+        max-width: 400px; /* Lebar maksimum dari elemen alamat */
+    }
+
+    /* CSS untuk teks dalam elemen alamat */
+    .footer_addr p {
+        margin-bottom: 10px; /* Jarak bawah antara setiap paragraf */
+        margin-left: 160px;
+        margin-top: -40px;
+    }
+
+    /* CSS untuk tautan nomor telepon di dalam elemen alamat */
+    .footer_addr a {
+        color: #fff; /* Warna tautan nomor telepon */
+        text-decoration: none; /* Menghilangkan garis bawah tautan */
+        font-weight: bold; /* Memberikan ketebalan pada teks tautan */
+    }
+    /* CSS untuk tautan nomor telepon di hover */
+    .footer_addr a:hover {
+        text-decoration: underline; /* Garis bawah muncul saat hover */
+    }
+
+    .footer_content-top {
+    padding: 0px 0;
+    }
+
+    .footer_content-bottom {
+    border-top: 1px solid #4e5053;
+    padding: 0px 0;
+    margin-top: 100px; /* Sesuaikan dengan jarak dari elemen di atasnya */
+    }
+    
+    .footer_content-bottom a:hover {
+    text-decoration: none; /* Hilangkan dekorasi bawaan */
+    border-bottom: 2px solid #ffffff; /* Atur ukuran dan warna garis bawah */
+    padding-bottom: 2px; /* Sesuaikan jika diperlukan padding di bagian bawah */
+    }
+
+    .footer_meta-copy {
+    font-size: 13px;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: -40px;
+    }
+
+    .footer_meta-link {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    }
+
+    .footer_meta-link li {
+    display: inline-block;
+    margin: 0 0px;
+    }
+
+    .footer_meta-link li a {
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    position: center;
+    }
+
+    .footer_meta-medsos {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    }
+
+    .footer_meta-medsos li {
+    display: inline-block;
+    margin: 0 5px;
+    }
+
+    .footer_meta-medsos li a {
+    color: #8D8F92;
+    text-decoration: none;
+    }
+
+    .footer_meta-list--yellow li a {
+    color: #FFD600;
+    }
+
+
+
+
+
+

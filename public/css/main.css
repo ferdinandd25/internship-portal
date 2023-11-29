@@ -1,0 +1,53 @@
+.header {
+    background-color: #007BFF; /* Ganti dengan warna biru yang Anda inginkan */
+    color: #fff; /* Warna teks */
+}
+
+.header a {
+    color: #fff; /* Warna tautan */
+}
+
+#ProjectContainer {
+	display: flex;
+	column-gap: 30px;    
+}
+
+.Project {
+	margin-top: 30px;
+	margin-bottom: 35.4px;
+    margin-left: auto;
+    margin-right: auto;
+	border: 1px solid black;
+	padding: 16px;
+    width: 350px; /* Lebar yang diinginkan */
+    height: 120px; /* Panjang yang diinginkan */
+	overflow-y: auto;
+	max-height: 400px;
+	box-shadow: 1px 1px 5px rgba(0 ,0 ,0 ,.5);
+	background: #fff;
+}
+
+.Project h2 {
+	color: rgb(0, 0, 0);
+	text-align: justify;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* Mengatur ukuran gambar menjadi 100px x 100px */
+.Project a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.Project a img {
+    margin-right: 50px; /* Atur jarak antara gambar dan teks */
+}
+
+/* CSS di file terpisah */
+img {
+    width: 100px;
+    height: auto; /* Menjaga aspek rasio gambar */
+}
+

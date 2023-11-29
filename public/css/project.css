@@ -1,0 +1,40 @@
+    .Project h2 {
+        color: rgb(0, 0, 0);
+        text-align: justify;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    /* Mengatur ukuran gambar menjadi 100px x 100px */
+    .Project a {
+        display: flex;
+        align-items: center;
+    }
+
+    .Project a img {
+        position: absolute;
+        top: 130px; /* Sesuaikan dengan posisi vertikal yang diinginkan */
+        left: 150px; /* Sesuaikan dengan posisi horizontal yang diinginkan */
+    }
+
+    /* CSS di file terpisah */
+    img {
+        width: 150px;
+        margin-top: 80px;
+        margin-left: 20px;
+        height: auto; /* Menjaga aspek rasio gambar */
+    }
+    
+    .button-container {
+        position: absolute;
+        top: 130px; /* Sesuaikan dengan posisi vertikal yang diinginkan */
+        left: 200px; /* Sesuaikan dengan posisi horizontal yang diinginkan */
+        display: flex;
+        flex-direction: column-reverse; /* Membalik urutan vertikal elemen-elemen */
+        align-items: center;
+    }
+
+    .button-container button {
+    font-size: 24px; /* Sesuaikan dengan ukuran font yang diinginkan */
+    padding: 12px 24px; /* Sesuaikan dengan ukuran tombol yang diinginkan */
+    }
